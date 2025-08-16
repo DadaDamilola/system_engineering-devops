@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display the content of current directory, removing the part before the first dash
+for file in *; do
+    echo "${file#*-}"
+done
